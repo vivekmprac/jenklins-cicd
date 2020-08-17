@@ -40,9 +40,10 @@
 	</repository>
 	
 	<snapshotRepository>
-		<id>nexus</id>
 		<name>snapshotRepo</name>
 		<url>http://192.168.43.112:8081/nexus/content/repositories/snapshotRepo/</url>
+		<username>admin</username>
+		<password>admin123</password>
 	</snapshotRepository>
 	
   </distributionManagement>
